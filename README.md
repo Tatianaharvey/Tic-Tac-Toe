@@ -13,6 +13,6 @@ Play against the computer.
 
 🛠️ Built with:
 
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
