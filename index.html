@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
 </head>
 <body>
 
-    <header>
+    <header class="tic-tac-toe">
         <h1>Tic-Tac-Toe</h1>
     </header>
     
@@ -28,11 +31,11 @@
         </div>
 
         <div class="winning-message" id="winningMessage">
-                <div data-winning-message-text></div>
+                <div data-winning-message-text>X Wins!</div>
                 <button id="restartButton">Restart Game</button>
         </div>
     </main>
-    
+
 
 </body>
 </html>
