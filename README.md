@@ -1,2 +1,18 @@
 # Tic-Tac-Toe
-Goal of this project is to create a tic tac toe game to practice scopes, factory functions, and module patterns. 
+📝 Description: 
+
+Vanilla JS Tic-tac-toe project.
+
+
+
+💡 Features:
+
+Play against the computer.
+
+
+
+🛠️ Built with:
+
+HTML
+CSS
+JavaScript
