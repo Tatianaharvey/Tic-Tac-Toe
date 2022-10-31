@@ -1,0 +1,47 @@
+*, *::after, *::before {
+    box-sizing: border-box
+}
+
+:root {
+    --cell-size: 100px;
+    --mark-size: calc(var(--cell-size) * .9);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto)
+  }
+  
+  .cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+
+
+.winning-message button {
+    cursor: pointer;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.winning-message button:hover {
+    background-color: pink;
+}
