@@ -1,17 +1,15 @@
 # Tic-Tac-Toe
-📝 Description: 
-
+## 📝 Description: 
+#
 Vanilla JS Tic-tac-toe project.
 
-
-
-💡 Features:
+#
+## 💡 Features:
 
 Play against the computer.
+#
 
-
-
-🛠️ Built with:
+## 🛠️ Built with:
 
 - HTML
 - CSS
