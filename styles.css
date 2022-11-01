@@ -18,7 +18,7 @@ body {
     color: #ED6335;
 }
 
-.options {
+/* .options {
     text-align:center;
     font-size: 1.4rem;
     margin-bottom: 1.5rem;
@@ -38,7 +38,7 @@ body {
 
 .options button:hover {
     background-color: #8db4ad;
-}
+} */
 
 .board {
     display: grid;
