@@ -18,6 +18,28 @@ body {
     color: #ED6335;
 }
 
+.options {
+    text-align:center;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: #064c72;
+    font-weight:bolder;
+}
+
+.options button {
+    border: none;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    background-color:#ecae7d;
+    cursor: pointer;
+    color: white;
+    margin: 1rem;
+}
+
+.options button:hover {
+    background-color: #8db4ad;
+}
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, auto);
